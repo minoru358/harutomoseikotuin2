@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>はるとも整骨院｜茨城県結城市</title>
+<style>
+  :root{
+    --bg:#ffffff;
+    --text:#333333;
+    --sub:#666666;
+    --accent:#4a7a6f;
+    --line:#e5e5e5;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    color:var(--text);
+    background:var(--bg);
+    line-height:1.8;
+    padding-bottom:70px; /* 下の電話帯の分あける */
+  }
+  header{
+    text-align:center;
+    padding:32px 16px 24px;
+    border-bottom:1px solid var(--line);
+  }
+  header .en{
+    font-size:12px;
+    letter-spacing:2px;
+    color:var(--sub);
+  }
+  header h1{
+    font-size:22px;
+    margin:8px 0 4px;
+  }
+  header p{
+    font-size:13px;
+    color:var(--sub);
+    margin:0;
+  }
+  .hero{
+    text-align:center;
+    padding:48px 20px;
+    background:#f7f8f7;
+  }
+  .hero h2{
+    font-size:26px;
+    line-height:1.5;
+    margin:0 0 16px;
+  }
+  .hero p{
+    color:var(--sub);
+    font-size:15px;
+    max-width:480px;
+    margin:0 auto;
+  }
+  .cta-button{
+    display:inline-block;
+    margin-top:24px;
+    background:var(--accent);
+    color:#fff;
+    text-decoration:none;
+    padding:14px 32px;
+    border-radius:4px;
+    font-size:15px;
+  }
+  section{
+    max-width:640px;
+    margin:0 auto;
+    padding:48px 20px;
+  }
+  section h3{
+    text-align:center;
+    font-size:20px;
+    margin-bottom:32px;
+  }
+  .checklist{
+    list-style:none;
+    padding:0;
+    margin:0;
+  }
+  .checklist li{
+    padding:14px 0 14px 32px;
+    border-bottom:1px solid var(--line);
+    position:relative;
+    font-size:15px;
+  }
+  .checklist li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    color:var(--accent);
+    font-weight:bold;
+  }
+  .reasons{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:16px;
+  }
+  .reason-card{
+    border:1px solid var(--line);
+    border-radius:6px;
+    padding:20px;
+  }
+  .reason-card .num{
+    color:var(--accent);
+    font-size:13px;
+    font-weight:bold;
+  }
+  .reason-card h4{
+    margin:6px 0 8px;
+    font-size:16px;
+  }
+  .reason-card p{
+    margin:0;
+    font-size:14px;
+    color:var(--sub);
+  }
+  .price-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:15px;
+  }
+  .price-table th, .price-table td{
+    border:1px solid var(--line);
+    padding:14px;
+    text-align:left;
+  }
+  .price-table th{
+    background:#f7f8f7;
+    width:45%;
+  }
+  .info-table{
+    width:100%;
+    font-size:14px;
+  }
+  .info-table th{
+    text-align:left;
+    color:var(--sub);
+    font-weight:normal;
+    padding:8px 0;
+    width:30%;
+    vertical-align:top;
+  }
+  .info-table td{
+    padding:8px 0;
+  }
+  .note{
+    font-size:12px;
+    color:var(--sub);
+    text-align:center;
+    margin-top:16px;
+  }
+  footer{
+    background:#f7f8f7;
+    text-align:center;
+    padding:40px 20px;
+    font-size:13px;
+    color:var(--sub);
+  }
+  footer .shop-name{
+    color:var(--text);
+    font-size:15px;
+    margin-bottom:8px;
+  }
+  .fixed-call{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:var(--accent);
+    text-align:center;
+  }
+  .fixed-call a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:16px;
+    font-size:16px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="images/logo.jpg" alt="はるとも整骨院 ロゴ" style="width:64px;height:64px;object-fit:contain;border-radius:50%;">
+  <h1>はるとも整骨院</h1>
+  <p>茨城県結城市 ／ 脊柱管狭窄症・交通事故治療</p>
+</header>
+
+<div class="hero">
+  <img src="images/director-portrait.jpg" alt="はるとも整骨院 院長" style="width:160px;height:160px;object-fit:cover;border-radius:50%;margin-bottom:20px;">
+  <h2>歩くのがつらい、その痛み。<br>地域で唯一の神経整体で、ご相談ください。</h2>
+  <p>脊柱管狭窄症、しびれ、つらい腰痛でお悩みの方へ。<br>交通事故治療にも対応しています。</p>
+  <a class="cta-button" href="tel:0296496570">今すぐお電話でご相談</a>
+</div>
+
+<section style="padding:32px 20px;">
+  <div style="max-width:480px;margin:0 auto;border:2px solid var(--accent);border-radius:8px;overflow:hidden;">
+    <div style="background:var(--accent);color:#fff;text-align:center;padding:8px;font-size:14px;">1日1名様限定</div>
+    <div style="padding:24px;text-align:center;">
+      <div style="font-size:13px;color:var(--sub);">初回特別価格</div>
+      <div style="margin:8px 0;">
+        <span style="text-decoration:line-through;color:var(--sub);font-size:16px;">通常8,800円（税込）</span>
+      </div>
+      <div style="font-size:36px;color:var(--accent);font-weight:bold;">3,980円<span style="font-size:14px;">（税込）</span></div>
+      <a class="cta-button" href="tel:0296496570" style="margin-top:16px;">電話で予約する</a>
+      <p style="font-size:13px;color:var(--sub);margin-top:16px;">お電話の際「ホームページを見ました」とお伝えください。</p>
+      <p class="note" style="margin-top:12px;">※施術は医療行為ではありません。お身体の変化には個人差があります。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3>こんなお悩みはありませんか</h3>
+  <ul class="checklist">
+    <li>脊柱管狭窄症で、歩くのがつらい</li>
+    <li>手足のしびれが気になる</li>
+    <li>腰痛がなかなか良くならない</li>
+    <li>交通事故のケガでお困り</li>
+    <li>強い刺激の施術は避けたい</li>
+    <li>ゆっくり相談できる場所を探している</li>
+  </ul>
+</section>
+
+<section style="background:#f7f8f7;">
+  <h3>選ばれる4つの理由</h3>
+  <div class="reasons">
+    <div class="reason-card">
+      <div class="num">01</div>
+      <h4>脊柱管狭窄症に強い</h4>
+      <p>歩くのがつらい、しびれがあるといったお悩みに向き合います。</p>
+    </div>
+    <div class="reason-card">
+      <div class="num">02</div>
+      <h4>交通事故治療に対応</h4>
+      <p>交通事故によるケガのお悩みにも対応しています。</p>
+    </div>
+    <div class="reason-card">
+      <div class="num">03</div>
+      <h4>地域で唯一の神経整体</h4>
+      <p>骨や筋肉ではなく、神経に働きかける独自の手技です。</p>
+    </div>
+    <div class="reason-card">
+      <div class="num">04</div>
+      <h4>栄養士による栄養指導</h4>
+      <p>お身体の変化を、食事の面からもサポートします。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3>料金</h3>
+  <table class="price-table">
+    <tr><th>初回特別価格</th><td>3,980円（税込）</td></tr>
+    <tr><th>2回目以降</th><td>8,800円（税込）</td></tr>
+  </table>
+  <p class="note">※施術は医療行為ではありません。お身体の変化には個人差があります。</p>
+</section>
+
+<section style="background:#f7f8f7;">
+  <h3>ていねいな4つのステップ</h3>
+  <ul class="checklist">
+    <li>ステップ1：原因を見つけるために検査を徹底する</li>
+    <li>ステップ2：お客様が納得できるように原因を説明する</li>
+    <li>ステップ3：原因を取り除くための施術をする</li>
+    <li>ステップ4：本当に変化が出ているかを確認する</li>
+  </ul>
+  <div style="text-align:center;margin-top:24px;">
+    <img src="images/explain.jpg" alt="院長がホワイトボードで説明する様子" style="width:100%;max-width:400px;border-radius:6px;">
+  </div>
+</section>
+
+<section>
+  <h3>院内の様子</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <img src="images/treatment-1.jpg" alt="施術の様子" style="width:100%;border-radius:6px;object-fit:cover;height:160px;">
+    <img src="images/treatment-2.jpg" alt="施術の様子" style="width:100%;border-radius:6px;object-fit:cover;height:160px;">
+    <img src="images/counseling.jpg" alt="カウンセリングの様子" style="width:100%;border-radius:6px;object-fit:cover;height:160px;">
+    <img src="images/director-sign.jpg" alt="院長" style="width:100%;border-radius:6px;object-fit:cover;height:160px;">
+  </div>
+</section>
+
+<section style="background:#f7f8f7;">
+  <h3>アクセス・営業時間</h3>
+  <img src="images/map.jpg" alt="はるとも整骨院 地図" style="width:100%;border-radius:6px;margin-bottom:20px;">
+  <table class="info-table">
+    <tr><th>店名</th><td>はるとも整骨院</td></tr>
+    <tr><th>住所</th><td>茨城県結城市結城11953-1</td></tr>
+    <tr><th>電話</th><td><a href="tel:0296496570" style="color:var(--text);">0296-49-6570</a></td></tr>
+    <tr><th>営業時間</th><td>9:00〜12:00 ／ 14:00〜19:00</td></tr>
+    <tr><th>定休日</th><td>日曜・祝日・木曜日</td></tr>
+    <tr><th>お支払い</th><td>現金・クレジットカード・PayPay</td></tr>
+  </table>
+</section>
+
+<footer>
+  <div class="shop-name">はるとも整骨院</div>
+  <div>茨城県結城市結城11953-1</div>
+  <div>0296-49-6570</div>
+</footer>
+
+<div class="fixed-call">
+  <a href="tel:0296496570">📞 お電話でのご予約はこちら</a>
+</div>
+
+</body>
+</html>
